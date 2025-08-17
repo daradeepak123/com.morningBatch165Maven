@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="lisnters.ExtentTestNGListener" />
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGbasics.TestAnnotationDetailed"/>
+      <class name="testNGbasics.TimeSheet"/>
+      <class name="testNGbasics.TC2Learn"/>
+      <class name="functionalFlow.AssertLearnBas"/>
+      <class name="testNGbasics.LearnTestNG"/>
+      <class name="testNGbasics.DBPageToTimeSheetTC"/>
+      <class name="pimTCs.PIMTest"/>
+      <class name="testNGbasics.DashBoardTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
