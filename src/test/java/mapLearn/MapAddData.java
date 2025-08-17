@@ -35,7 +35,7 @@ public class MapAddData {
 		mp.put(100, "");
 		
 		
-		List<String> name=new ArrayList<String>();
+		List<String> name11=new ArrayList<String>();
 		name.add("fname");
 		name.add("mname");
 		name.add("lname");
