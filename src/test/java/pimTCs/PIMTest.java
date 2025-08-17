@@ -29,16 +29,14 @@ public class PIMTest extends BaseTestNGAnnotations{
 	public void searchUser() throws Exception
 	{
 		pim.searchData();
-		Thread.sleep(5000);
-		
+		Thread.sleep(2000);		
 	}
 	
 	
 	@AfterMethod
 	public void afterMethod()
 	{
-		pim.clickPIMTab();
-		
+		pim.clickPIMTab();		
 	}
 
 	
